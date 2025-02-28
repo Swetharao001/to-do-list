@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List Application</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <!-------------main container--------------->
+  <div class="main-container">
+    <h1>To-do List &#128221; </h1>
+    <!----------input section------->
+    <div class="input-section">
+      <div class="top-row">
+       <input type="text" id="enterTask" placeholder="Add new task">
+       <button class="addTask"> Add</button>
+      </div>
+     <input type="text" id="taskDescription" placeholder="Task description (optional)">
+    </div>
+    <!-------------list container------->
+      <ul class="tasklist">
+        <!----tasks will be added------->
+      </ul>
+    <button class="clear-completed-tasks">
+      Clear Completed Task
+    </button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
